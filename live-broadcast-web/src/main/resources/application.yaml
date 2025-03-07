@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: live-broadcast-web
+
+#Swagger配置
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html # Swagger UI 访问路径
+  api-docs:
+    enabled: true
+    path: /v3/api-docs      # OpenAPI 文档路径
